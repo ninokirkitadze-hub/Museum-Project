@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>University Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <h1 class="logo">University of Logo</h1>
+        <div class="search">
+          <input type="search" placeholder="search" />
+        </div>
+        <div class="burger-menu" id="burger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#"> About</a></li>
+          <li><a href="#"> Programs</a></li>
+          <li><a href="#"> Admisions</a></li>
+          <li><a href="#"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>welcome to our university</h2>
+        <p>shaping the future through education</p>
+        <button class="button">join from Here</button>
+      </div>
+    </section>
+    <section class="cards-section">
+      <div class="card museum">
+        <div class="card-content">
+          <h3>Museum</h3>
+          <div class="card-hover">
+            <p>learn more</p>
+            <button class="btn">visiti</button>
+          </div>
+        </div>
+      </div>
+      <div class="card Alumni">
+        <div class="card-content">
+          <h3>Alumni</h3>
+          <div class="card-hover">
+            <p>Stay connected</p>
+            <button class="btn">join</button>
+          </div>
+        </div>
+      </div>
+      <div class="card Lybraries">
+        <div class="card-content">
+          <h3>Lybraries</h3>
+          <div class="card-hover">
+            <p>Explore resources</p>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      </div>
+      <div class="card research">
+        <div class="card-content">
+          <h3>Research</h3>
+          <div class="card-hover">
+            <p>Discover Innovations</p>
+            <button class="btn">Discover</button>
+          </div>
+        </div>
+      </div>
+      <div class="card business">
+        <div class="card-content">
+          <h3>Business</h3>
+          <div class="card-hover">
+            <p>Connect with us</p>
+            <button class="btn">connect</button>
+          </div>
+        </div>
+      </div>
+      <div class="card sport">
+        <div class="card-content">
+          <h3>Sport</h3>
+          <div class="card-hover">
+            <p>Join teams</p>
+            <button class="btn">join</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document
+        .getElementById("burger-menu")
+        .addEventListener("click", function () {
+          document.getElementById("nav-menu").classList.toggle("show");
+        });
+    </script>
+  </body>
+</html>
